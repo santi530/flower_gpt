@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulip Drawing with Transition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="garden-background">
+        <svg id="tulip" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <g id="stem" class="hidden">
+                <path d="M50 100 Q48 60, 50 50 Q52 40, 50 0" stroke="#228B22" stroke-width="3" fill="none"/>
+            </g>
+            <g id="flower" class="hidden">
+                <path d="M50 50 C30 30, 20 10, 30 0 C40 10, 50 30, 50 50" stroke="#DA70D6" stroke-width="3" fill="none" transform="translate(0, -25)" class="petal"/>
+                <path d="M50 50 C70 30, 80 10, 70 0 C60 10, 50 30, 50 50" stroke="#DA70D6" stroke-width="3" fill="none" transform="translate(0, -25)" class="petal"/>
+                <path d="M50 50 C45 30, 50 10, 55 0 C50 10, 55 30, 50 50" stroke="#DA70D6" stroke-width="3" fill="none" transform="translate(0, -25)" class="petal"/>
+            </g>
+        </svg>
+    </div>     
+    <script src="script.js"></script>
+</body>
+</html>
